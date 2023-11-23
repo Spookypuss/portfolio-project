@@ -32,6 +32,12 @@ h3 {
 
 p {
     font-size: 16px;
+    line-height: 30px;
+}
+
+span {
+    display: flex;
+    justify-content:space-evenly;
 }
 
 .btn-branding {
@@ -42,6 +48,22 @@ p {
     font-size: 18px;
     line-height: 27px;
     padding: 18px 30px;
+}
+
+.btn-branding-outline {
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    display: block;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0 auto;
+    padding: 18px 30px;
+}
+
+.btn-branding:hover {
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    transition: all 0.2s ease-in-out;
 }
 
 .container {
@@ -66,11 +88,19 @@ p {
     border: 1px solid var(--primary-color);
     border-radius: 4px;
     max-width: 80%;
-    padding: 15px;
+}
+
+.project-container {
+    max-width: 80%;
 }
 
 .project-header {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 44px;
+}
+
+.btn-primary {
+    background: var(--secondary-color) !important;
+    border: var(--secondary-color) !important;
 }
