@@ -43,6 +43,7 @@ hr {
 p {
     font-size: 16px;
     line-height: 30px;
+    opacity: 80%;
 }
 
 span {
@@ -65,6 +66,12 @@ span {
     color: var(--secondary-color);
     background: var(--primary-color);
     transition: all 0.2s ease-in-out;
+}
+
+.btn-primary {
+    background: var(--primary-color) !important;
+    border: var(--primary-color) !important;
+    box-shadow: var(--box-shadow);
 }
 
 .container {
@@ -100,14 +107,39 @@ span {
     max-width: 80%;
 }
 
+.project-description {
+    padding: 40px 30px;
+}
+
 .project-header {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 44px;
 }
 
-.btn-primary {
-    background: var(--primary-color) !important;
-    border: var(--primary-color) !important;
-    box-shadow: var(--box-shadow);
+@media (max-width: 992px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .hero {
+        padding: 70px 20px;
+    }
+
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
+
+    .project-header{
+        font-size: 32px;
+    }
 }
