@@ -2,6 +2,8 @@
 :root {
     --primary-color: #142d4c;
     --secondary-color: #9fd3c7;
+    --background: rgb(159, 211, 199, 0.3);/*radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);*/
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -30,6 +32,14 @@ h3 {
     font-weight: bold;
 }
 
+hr {
+    border: 2px solid var(--primary-color);
+    display: block;
+    margin: 40px auto;
+    opacity: 80% !important;
+    width: 70%;
+}
+
 p {
     font-size: 16px;
     line-height: 30px;
@@ -37,26 +47,17 @@ p {
 
 span {
     display: flex;
-    justify-content:space-evenly;
+    justify-content:left;
 }
 
 .btn-branding {
     background: var(--secondary-color);
     border: 1px solid var(--primary-color);
     border-radius: 4px;
+    box-shadow: var(--box-shadow);
     display: block;
     font-size: 18px;
     line-height: 27px;
-    padding: 18px 30px;
-}
-
-.btn-branding-outline {
-    border: 1px solid var(--secondary-color);
-    border-radius: 4px;
-    display: block;
-    font-size: 18px;
-    line-height: 27px;
-    margin: 0 auto;
     padding: 18px 30px;
 }
 
@@ -78,16 +79,21 @@ span {
 }
 
 .hero {
-    background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+    background: var(--background);
     margin: 0 auto;
     padding: 140px 20px;
     text-align: center;
 }
 
 .image {
-    border: 1px solid var(--primary-color);
+    /*border: 1px solid var(--primary-color);*/
     border-radius: 4px;
     max-width: 80%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
 }
 
 .project-container {
@@ -101,6 +107,7 @@ span {
 }
 
 .btn-primary {
-    background: var(--secondary-color) !important;
-    border: var(--secondary-color) !important;
+    background: var(--primary-color) !important;
+    border: var(--primary-color) !important;
+    box-shadow: var(--box-shadow);
 }
