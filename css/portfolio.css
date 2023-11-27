@@ -84,6 +84,7 @@ span {
 
 .container {
     margin: 40px auto;
+    max-width: 80%;
 }
 
 .content-container {
@@ -174,6 +175,10 @@ span {
 
     h3 {
         font-size: 22px;
+    }
+
+    .container {
+        max-width: 90%;
     }
 
     .content-container {
