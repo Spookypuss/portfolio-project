@@ -6,8 +6,16 @@
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     color: #142d4c;
+}
+
+button {
+    margin: 0 15px;
 }
 
 footer {
@@ -53,7 +61,7 @@ span {
 
 .about-section {
     margin: 0 auto;
-    padding: 140px 20px 50px;
+    padding: 40px 20px 50px;
     text-align: center;
 }
 
