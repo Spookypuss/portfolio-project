@@ -59,17 +59,6 @@ span {
     justify-content:left;
 }
 
-.about-section {
-    margin: 0 auto;
-    padding: 40px 20px 50px;
-    text-align: center;
-}
-
-.about-section-content h1 {
-    font-size: 64px;
-    line-height: 80px;
-}
-
 .btn-branding {
     background: var(--secondary-color);
     border: 1px solid var(--primary-color);
@@ -97,6 +86,17 @@ span {
     margin: 40px auto;
 }
 
+.content-container {
+    margin: 0 auto;
+    padding: 40px 20px 50px;
+    text-align: center;
+}
+
+.content-container h1 {
+    font-size: 64px;
+    line-height: 80px;
+}
+
 .git-info {
     color: var(--primary-color);
     cursor: pointer;
@@ -113,11 +113,16 @@ span {
 
 .image {
     /*border: 1px solid var(--primary-color);*/
-    border-radius: 4px;
+    border-radius: 5px;
     max-width: 80%;
 }
 
 .img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
     display: flex;
     justify-content: center;
 }
@@ -171,7 +176,7 @@ span {
         font-size: 22px;
     }
 
-    .about-section {
+    .content-container {
         padding: 0;
         text-align: center;
     }
