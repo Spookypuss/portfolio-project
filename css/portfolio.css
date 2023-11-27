@@ -51,6 +51,17 @@ span {
     justify-content:left;
 }
 
+.about-section {
+    margin: 0 auto;
+    padding: 140px 20px 50px;
+    text-align: center;
+}
+
+.about-section-content h1 {
+    font-size: 64px;
+    line-height: 80px;
+}
+
 .btn-branding {
     background: var(--secondary-color);
     border: 1px solid var(--primary-color);
@@ -103,6 +114,16 @@ span {
     justify-content: center;
 }
 
+.profile-img {
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+}
+
+.profile-img:hover {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='70' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🦄</text></svg>")
+    16 0, auto;
+}
+
 .project-container {
     max-width: 80%;
 }
@@ -117,6 +138,18 @@ span {
     font-size: 44px;
 }
 
+.work-enquiry {
+    background: var(--background);
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 30px 20px;
+}
+
+.work-enquiry h2 {
+    font-family: 'Playfair Display', serif;
+}
+
 @media (max-width: 992px) {
     h1 {
         font-size: 60px;
@@ -128,6 +161,11 @@ span {
 
     h3 {
         font-size: 22px;
+    }
+
+    .about-section {
+        padding: 0;
+        text-align: center;
     }
 
     .hero {
