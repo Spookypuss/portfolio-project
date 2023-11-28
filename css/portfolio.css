@@ -40,12 +40,24 @@ h3 {
     font-weight: bold;
 }
 
+h4 {
+    font-size: 14px;
+    margin: 5px auto 30px;
+    opacity: 60%;
+}
+
 hr {
     border: 2px solid var(--primary-color);
     display: block;
     margin: 40px auto;
     opacity: 80% !important;
     width: 70%;
+}
+
+i {
+    color: var(--primary-color);
+    font-size: 36px;
+    margin: 0 10px;
 }
 
 p {
@@ -57,6 +69,10 @@ p {
 span {
     display: flex;
     justify-content:left;
+}
+
+span i {
+    margin: 0 auto;
 }
 
 .btn-branding {
@@ -80,6 +96,22 @@ span {
     background: var(--primary-color) !important;
     border: var(--primary-color) !important;
     box-shadow: var(--box-shadow);
+}
+
+.card {
+    background: var(--background);
+    box-shadow: var(--box-shadow);
+}
+
+.card h3 {
+    color: var(--primary-color);
+    font-family: 'Playfair Display', serif;
+}
+
+.card p {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 .container {
@@ -162,6 +194,11 @@ span {
 
 .work-enquiry h2 {
     font-family: 'Playfair Display', serif;
+}
+
+#abab-mobile {
+    max-width: 50%;
+    margin: 0 auto;
 }
 
 @media (max-width: 992px) {
