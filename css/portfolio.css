@@ -130,6 +130,10 @@ span i {
     line-height: 80px;
 }
 
+.contact-content a {
+    color: var(--primary-color);
+}
+
 .git-info {
     color: var(--primary-color);
     cursor: pointer;
