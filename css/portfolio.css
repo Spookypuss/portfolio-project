@@ -12,6 +12,8 @@ a {
 
 body {
     color: #142d4c;
+    margin-top: 0;
+
 }
 
 button {
@@ -131,7 +133,7 @@ span i {
 }
 
 .contact-content a {
-    color: var(--primary-color);
+    text-decoration:underline;
 }
 
 .git-info {
@@ -159,9 +161,9 @@ span i {
     justify-content: center;
 }
 
-.nav-links {
-    display: flex;
-    justify-content: center;
+.navbar-brand {
+    color: white;
+    padding-left: 15px;
 }
 
 .profile-img {
