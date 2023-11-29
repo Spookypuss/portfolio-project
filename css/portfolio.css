@@ -107,7 +107,6 @@ span i {
 
 .card h3 {
     color: var(--primary-color);
-    font-family: 'Playfair Display', serif;
 }
 
 .card p {
@@ -119,6 +118,16 @@ span i {
 .container {
     margin: 40px auto;
     max-width: 80%;
+}
+
+.content a {
+    color: var(--primary-color);
+}
+
+.content a:hover {
+    opacity: 80%;
+    text-decoration: underline;
+    transition: all 0.2s ease-in-out;
 }
 
 .content-container {
