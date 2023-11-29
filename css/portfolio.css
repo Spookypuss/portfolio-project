@@ -161,6 +161,11 @@ span i {
     justify-content: center;
 }
 
+.nav-links {
+    display: flex;
+    justify-content: center;
+}
+
 .navbar-brand {
     color: white;
     padding-left: 15px;
