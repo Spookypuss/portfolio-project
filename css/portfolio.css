@@ -145,11 +145,16 @@ span i {
     text-decoration:underline;
 }
 
-.git-info {
+.footer-link {
     color: var(--primary-color);
     cursor: pointer;
     font-size: 36px;
     text-decoration: none;
+}
+
+.footer-link:hover {
+    opacity: 70%;
+    transition: all 0.2s ease-in-out;
 }
 
 .hero {
