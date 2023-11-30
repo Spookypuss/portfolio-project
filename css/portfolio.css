@@ -248,6 +248,11 @@ span i {
         text-align: center;
     }
 
+    .content-container h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+
     .hero {
         padding: 70px 20px;
     }
@@ -259,5 +264,12 @@ span i {
 
     .project-header{
         font-size: 32px;
+    }
+}
+
+@media (max-width: 576px) {
+    .content-container h1 {
+        font-size: 36px;
+        line-height: 40px;
     }
 }
