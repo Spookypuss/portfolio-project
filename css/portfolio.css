@@ -85,7 +85,9 @@ span i {
     display: block;
     font-size: 18px;
     line-height: 27px;
-    padding: 18px 30px;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 15px 30px;
 }
 
 .btn-branding:hover {
@@ -132,7 +134,7 @@ span i {
 
 .content-container {
     margin: 0 auto;
-    padding: 40px 20px 50px;
+    padding: 70px 20px 50px;
     text-align: center;
 }
 
@@ -165,7 +167,7 @@ span i {
 .hero {
     background: var(--background);
     margin: 0 auto;
-    padding: 140px 20px;
+    padding: 160px 20px;
     text-align: center;
 }
 
@@ -238,6 +240,7 @@ span i {
 
     h2 {
         font-size: 18px;
+        max-width: 90%;
     }
 
     h3 {
@@ -249,7 +252,7 @@ span i {
     }
 
     .content-container {
-        padding: 0;
+        padding: 60px;
         text-align: center;
     }
 
@@ -263,7 +266,7 @@ span i {
     }
 
     .hero {
-        padding: 70px 20px;
+        padding: 90px 0;
     }
 
     .project-description {
