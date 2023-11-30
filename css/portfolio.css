@@ -157,6 +157,11 @@ span i {
     transition: all 0.2s ease-in-out;
 }
 
+.footer-text {
+    font-family: monospace, serif;
+    font-size: 14px;
+}
+
 .hero {
     background: var(--background);
     margin: 0 auto;
@@ -251,6 +256,10 @@ span i {
     .content-container h1 {
         font-size: 44px;
         line-height: 50px;
+    }
+
+    .footer-text {
+        font-size: 10px;
     }
 
     .hero {
