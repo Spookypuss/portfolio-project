@@ -216,6 +216,11 @@ span i {
     font-size: 44px;
 }
 
+.project-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .work-enquiry {
     background: var(--background);
     display: block;
