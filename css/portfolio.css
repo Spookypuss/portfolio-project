@@ -238,6 +238,10 @@ span i {
     margin: 0 auto;
 }
 
+#weather-col {
+    padding-right: 36px;
+}
+
 @media (max-width: 992px) {
     h1 {
         font-size: 60px;
@@ -279,8 +283,14 @@ span i {
         text-align: center;
     }
 
-    .project-header{
+    .project-header {
         font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    #weather-col {
+        padding-right: 12px;
     }
 }
 

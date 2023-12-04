@@ -46,7 +46,7 @@
             <h1 class="mt-3 mb-3 text-center">Weather app<h1>
             <h2 class="text-center mb-5">A web-based weather application, showing current conditions and a five day forecast for a chosen location.</h2>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" id="weather-col">
                     <img src="/images/weather-app.png" alt="Preview of weather app showing current conditions and five-day forecast for Berlin" id="weather-img" class="img-fluid rounded" title="Weather for Berlin"/>
                     <h4 class="text-center">Weather app, light theme</h4>
                     <img src="images/weather-app-dark.png" alt="Preview of weather app showing current conditions and five-day forecast for Berlin, dark themed" id="weather-img" class="img-fluid rounded d-none d-md-block" title="Weather for Berlin, dark themed"/>
@@ -54,7 +54,7 @@
                     <img src="images/alt-weather-app.png" alt="Preview of alternative styling for weather app" id="weather-img" class="img-fluid rounded d-none d-md-block" title="Alternative styling"/>
                     <h4 class="text-center d-none d-md-block">Weather app, alternative styling</h4>
                 </div>
-                <div class="card col-md-6">
+                <div class="card col-md-6"> <!-- Want this full width when <576px-->
                     <h3 class="mt-3 mb-3">Weather app</h3>
                     <p>As a coding challenge, I tackled the APU-call-laiden world of a weather app.  The brief was to create an application which would 
                         give the current conditions and a five-day forecast for any city that a user entered, by calling a weather API and returning selected
@@ -72,9 +72,9 @@
                         retains a blue hue.
                     </p>
                     <p>This project also marked the start of me getting to grips with testing via Cypress. Both apps contain a link to their GitHub repositories.</p>
-                    <div class="project-links">
-                        <a href="https://nimble-maamoul-210f23.netlify.app" target="_blank" title="Weather app" class="btn btn-branding">Unicorn</a>
-                        <a href="https://incredible-dragon-91dac4.netlify.app" target="_blank" title="Alternative weather app" class="btn btn-branding">Alt Website</a>
+                    <div class="project-links"> <!-- Need these to NOT smuch together <768px-->
+                        <a href="https://nimble-maamoul-210f23.netlify.app" target="_blank" title="Weather app" class="btn btn-branding">Weather app</a>
+                        <a href="https://incredible-dragon-91dac4.netlify.app" target="_blank" title="Alternative weather app" class="btn btn-branding">Alt style app</a>
                     </div>
                     <br />
                     <div class="card-footer bg-white">
