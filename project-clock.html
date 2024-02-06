@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="An overview of the creation of a web-based weather app, showing current conditions and a five-day forecast.">
-    <title>Weather app project | Lyn Rycroft</title>
+    <title>World clock project | Lyn Rycroft</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,50 +43,32 @@
     </nav>
     <div class="content-container container mb-3">
         <div class="content">
-            <h1 class="mt-3 mb-3 text-center">Weather app<h1>
-            <h2 class="text-center mb-5">A web-based weather application, showing current conditions and a five day forecast for a chosen location.</h2>
+            <h1 class="mt-3 mb-3 text-center">World clock app<h1>
+            <h2 class="text-center mb-5">A web-based world clock application, showing current time in several different locations, including the user's location.</h2>
             <div class="row">
                 <div class="col-md-6" id="weather-col">
-                    <img src="/images/weather-app.png" alt="Preview of weather app showing current conditions and five-day forecast for Berlin" id="weather-img" class="img-fluid rounded" title="Weather for Berlin"/>
-                    <h4 class="text-center">Weather app, light theme</h4>
-                    <img src="images/weather-app-dark.png" alt="Preview of weather app showing current conditions and five-day forecast for Berlin, dark themed" id="weather-img" class="img-fluid rounded d-none d-md-block" title="Weather for Berlin, dark themed"/>
-                    <h4 class="text-center d-none d-md-block">Weather app, dark theme</h4>
-                    <img src="images/alt-weather-app.png" alt="Preview of alternative styling for weather app" id="weather-img" class="img-fluid rounded d-none d-md-block" title="Alternative styling"/>
-                    <h4 class="text-center d-none d-md-block">Weather app, alternative styling</h4>
+                    <img src="/images/world-clock.png" alt="Preview of world clock showwing time in Saõ Paulo, Karachi, and Auckland" id="clock-img" class="img-fluid rounded" title="Weather for Berlin"/>
+                    <h4 class="text-center">World clock application</h4>
                 </div>
                 <div class="card col-md-6"> <!-- Want this full width when <576px-->
-                    <h3 class="mt-3 mb-3">Weather app</h3>
-                    <p>As a coding challenge, I tackled the API-call-laiden world of a weather app.  The brief was to create an application which would 
-                        give the current conditions and a five-day forecast for any city that a user entered, by calling a weather API and returning selected
-                        information to the user.
+                    <h3 class="mt-3 mb-3">World clock</h3>
+                    <p>Hot on the heels of the weather app, and thirsty for more API calls, I tackled the world clock coding challenge.
                     </p>
-                    <p>Each of the weather APIs I tried out provided their own weather icons, and so naturally I let their color scheme influence the styling 
-                        of the app, in order to present a joined-up visual experience.
+                    <p>I leaned heavily into 90s styling for the world clock, and indulged users with six different locations around the world, plus the option of displaying the local timezone. 
                     </p>
-                    <p>While I started out using one API with predominantly orange and black themed icons, after doing some preliminary styling I found another API which 
-                        was easier to work with, but which had a very different color scheme.  The orange, black, and white app became the alternative styling (with an attempt
-                        at a nod to the fashion for 90s-inspired design), while the blues, pinks, and purples of the new API icons gave way to a 'unicorn' styled app.
-                    </p>
-                    <p>
-                        Once I got the API calls under my belt, I also added an additional style sheet to try out a dark-themed styling for the 'unicorn' weather app, which
-                        retains a blue hue.
-                    </p>
-                    <p>This project also marked the start of me getting to grips with testing via Cypress. Both apps contain a link to their GitHub repositories.</p>
                     <div class="project-links"> <!-- Need these to NOT smuch together <768px-->
-                        <a href="https://nimble-maamoul-210f23.netlify.app" target="_blank" title="Weather app" class="btn btn-branding">Weather app</a>
-                        <a href="https://incredible-dragon-91dac4.netlify.app" target="_blank" title="Alternative weather app" class="btn btn-branding">Alt style app</a>
+                        <a href="https://incredible-sunshine-773484.netlify.app" target="_blank" title="World clock" class="btn btn-branding">Weather app</a>
                     </div>
                     <br />
                     <div class="card-footer bg-white">
                         <h4>Skills used</h4>
-                        <p class="ms-3">Created using html, CSS, and JavaScript. Some Cypress testing involved too!</p>
+                        <p class="ms-3">Created using html, CSS, and JavaScript.</p>
                         <span>
                             <i class="fa-brands fa-html5"></i>
                             <i class="fa-brands fa-css3-alt"></i>
                             <i class="fa-brands fa-square-js"></i>
                             <i class="fa-brands fa-bootstrap"></i>
                             <i class="fa-brands fa-github"></i>
-                            <i class="fa-solid fa-microscope"></i>
                         </span>
                     </div>
                 </div>
